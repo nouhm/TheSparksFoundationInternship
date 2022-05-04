@@ -1,0 +1,66 @@
+/* format style for all */
+* {
+    background-color: #f6faf4;
+    overflow-y: hidden;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* format style for navigation bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+    font-size: 14px;
+}
+
+header > a:hover {
+    color:#7d9376;
+}
+
+
+/* format style for landing page text body */
+div > h1{
+    padding: 60px 90px;
+    padding-bottom: 45px;
+    font-size: 250%;
+}
+
+div > p {
+    padding: 0px 90px;
+    padding-bottom: 45px;
+    font-size: 130%;
+    width: 75%;
+}
+
+div > button {
+    padding: 12px 32px;
+    background-color: #D9EAD3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+button > a {
+    background-color: #D9EAD3;
+}
+
+
+/* format style for footer */
+#footer{
+    position: fixed; 
+    top: 630px;
+    left: 0px;
+    width:100%;
+}
